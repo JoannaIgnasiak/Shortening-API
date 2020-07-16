@@ -133,7 +133,7 @@
 		flex-direction: column;
 		align-items: flex-start;
 		justify-content: center;
-		background-image: url(../images/bg-shorten-desktop.svg);
+		background-image: url(./images/bg-shorten-desktop.svg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-color: hsl(260, 8%, 14%);
@@ -332,13 +332,13 @@
 		background-position: center;
 	}
 	.section_3--cubics--cubic:nth-child(1) .section_3--cubics--cubic--header:before {
-		background-image: url(../images/icon-brand-recognition.svg);
+		background-image: url(./images/icon-brand-recognition.svg);
 	}
 	.section_3--cubics--cubic:nth-child(2) .section_3--cubics--cubic--header:before {
-		background-image: url(../images/icon-detailed-records.svg);
+		background-image: url(./images/icon-detailed-records.svg);
 	}
 	.section_3--cubics--cubic:nth-child(3) .section_3--cubics--cubic--header:before {
-		background-image: url(../images/icon-fully-customizable.svg);
+		background-image: url(./images/icon-fully-customizable.svg);
 	}
 	.section_3--cubics--cubic-description {
 		opacity: .7;
@@ -348,7 +348,7 @@
 		top: -6em;
 		width: 100%;
 		height: 13em;
-		background-image: url(../images/bg-boost-desktop.svg);
+		background-image: url(./images/bg-boost-desktop.svg);
 		background-color: hsl(257, 27%, 26%);
 		display: flex;
 		flex-direction: column;
