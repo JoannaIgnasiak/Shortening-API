@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_mobile.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+  
+</head>
+<body>
+  <header>
+    
+    <img class="header--img" src="/images/logo.svg" alt="logo_image">
+   
+  <div class="container-nav">
+   
+      <ul class="nav">
+          <li class="nav_li">Features</li>
+          <li class="nav_li">Pricing</li>
+          <li class="nav_li">Resources</li>      
+        </ul>
+     
+      <ul class="nav_right">
+        <li class="nav_right_li">Login</li>
+        <li class="nav_right_li">Sign Up</li>
+      </ul>
+  </div>
+  <button class="hamburger">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+</header>
+
+<div class="section_1">
+  <div class="section_1_left">
+    <div class="section_1_title">More than just shorter links</div>
+    <div class ="section_1_undertitle">Build your brand’s recognition and get detailed insights 
+      on how your links are performing.</div>
+    <div class="section_1_button" onclick="smoothScroll(document.getElementById('section_2'))">Get Started</div>
+  </div>
+  <img class="section_1_right" src="./images/illustration-working-cut.svg">
+</div>
+
+
+
+<div class="section_2" id="section_2">
+  <div class="section_2--row">
+    <input class="section_2--input" id="section_2--input" type="text" placeholder="Shorten a link here..">
+    <button class="section_2--button" id="section_2_button">Shorten It!</button>
+  </div>
+  <label class="section_2--label" id="section_2_label">Please add a valid link</label>
+</div>
+<div class="section_2--background"></div>
+
+<div class="section_2_1" id="section_2_1">
+
+</div>
+
+
+<div class="section_3" >
+  <div class="section_3--head">
+      <span class="section_3--head--header">Advanced Statistics </br></span>
+      <span class="section_3--head--sub">Track how your links are performing across the web with our advanced statistics dashboard. </br></span>
+  </div>
+  <div class="section_3--cubics">
+    <div class="section_3--cubics--cubic">
+      <div class="section_3--cubics--cubic--header">Brand Recognition</div>
+      <div class="section_3--cubics--cubic-description"> Boost your brand recognition with each click. Generic links don’t 
+        mean a thing. Branded links help instil confidence in your content.</div>
+    </div>  
+    <div class="section_3--cubics--cubic">
+      <div class="section_3--cubics--cubic--header">Detailed Records</div>
+      <div class="section_3--cubics--cubic-description">   Gain insights into who is clicking your links. Knowing when and where 
+        people engage with your content helps inform better decisions.</div>
+    </div> 
+    <div class="section_3--cubics--cubic">
+      <div class="section_3--cubics--cubic--header">Fully Customizable</div>
+      <div class="section_3--cubics--cubic-description">   G  Improve brand awareness and content discoverability through customizable 
+        links, supercharging audience engagement.</div>
+    </div> 
+  </div>
+</div>
+<div class = "section_4">
+  <div class="section_4--header">Boost your links today</div>
+  <button class="section_4--button" onclick="smoothScroll(document.getElementById('section_2'))">Get Started</button>  
+</div>
+<footer>
+  <img class="footer--img" src="./images/logo.svg" alt="logo_image">
+  <div class="footer--columns">
+    <ul class="footer--columns--column">
+        <li>Features</li>
+        <li>Link Shortening</li>
+        <li>Branded Links</li>
+        <li>Analytics</li>       
+    </ul>
+
+    <ul class="footer--columns--column">
+      <li>Resources</li>
+      <li>Blog</li>
+      <li>Developers</li>
+      <li>Support</li>       
+  </ul>
+
+  <ul class="footer--columns--column">
+    <li>Company</li>
+    <li>About</li>
+    <li>Our Team</li>
+    <li>Careers</li>  
+    <li>Contact</li>      
+</ul>
+
+  </div>
+
+  <div class="footer--icons">
+    <img class="footer--icons--media" src="./images/icon-facebook.svg" alt="facebook_logo_image">
+    <img class="footer--icons--media" src="./images/icon-twitter.svg" alt="facebook_logo_image">
+    <img class="footer--icons--media" src="./images/icon-pinterest.svg" alt="facebook_logo_image">
+    <img class="footer--icons--media" src="./images/icon-instagram.svg" alt="facebook_logo_image">
+  </div>
+</footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/joanna-ignasiak/">Joanna Ignasiak</a>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
